@@ -1,0 +1,27 @@
+/* Optional: Custom styles for App component */
+.App {
+  @apply text-center p-4;
+}
+
+.App-header {
+  @apply bg-gray-800 text-white py-6;
+}
+
+.App-link {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+/* You can also define custom animations or keyframes */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo {
+  @apply w-32 h-32;
+  animation: App-logo-spin infinite 20s linear;
+}
